@@ -139,11 +139,10 @@ footer {
   margin: 0 auto;
 }
 
-#form input[type="email"],
-#form input[type="text"],
-#form input[type="submit"]{
+#form textarea,
+#form input[type="submit"] {
   width: 100%;
-  padding: 12px 20px;
+  padding: 10px 10px;
   margin: 8px 0;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -151,23 +150,24 @@ footer {
   font-size: 16px;
 }
 
-#form input[type="email"],
-#form input[type="text"] {
+#form textarea {
   border: 1px solid #ddd;
   transition: border-color 0.3s ease-in-out;
 }
 
-#form input[type="email"]:focus,
-#form input[type="text"]:focus, {
+#form #email {
+  height: 45px; /* Set the height as needed */
+}
+
+#form textarea:focus {
   border-color:  #EF7083;
   outline: none;
 }
 
-#form input[type="text"] {
-  height: 100px; 
-  padding: 12px 20px;
-} 
-
+#form textarea::placeholder,
+#form input::placeholder {
+  font-family: Arial, sans-serif;
+}
 
 #form input[type="submit"] {
   background-color:  #EF7083;
@@ -179,6 +179,13 @@ footer {
 
 #form input[type="submit"]:hover {
   background-color: #e23d5b;
+}
+
+#form label {
+  display: block; /* Ensure each label occupies its own line */
+  text-align: left; /* Align text to the left */
+  color: #e23d5b;; /* Choose your desired color */
+  margin-bottom: 5px; /* Add some space below each label */
 }
 
 /* Media query for smaller screens */
