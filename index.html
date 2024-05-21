@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Cake in a Can</h1>
-        <p>Don't bake! Crack open a convenient can of cake.</p>
-    </header>
+  <header id="header">
+    <img id="header-img" src="images/header-img.png" alt="Cake in a Can Header Image">
+    <h1>Cake in a Can</h1>
+    <p>Don't bake! Take a break.</p>
+    <p>Crack open a can of cake.</p>
+    <nav id="nav-bar">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#products" class="nav-link">Products</a>
+      <a href="#contact" class="nav-link">Contact</a>
+  </nav>
+</header>
 
     <main>
-        <section class="product-gallery">
+        <section id="about">Cake is one of the sweetest things life has to offer, so why only eat it on special occasions? With Cake in a Can, you can keep cake conveniently close at all times.</section>
+        <br>
+
+        <section class="product-gallery" id="products">
             <div class="product">
                 <img src="images/cherry.png" alt="Cherry Cake in a Can">
                 <h2>Cherry Cake in a Can</h2>
@@ -39,10 +49,14 @@
                 <h2>Watermelon Cake in a Can</h2>
             </div>
         </section>
+
+        <section id="trailer">
+            <iframe id="video" src="https://www.youtube.com/watch?v=TaQfMjm0Xlc">
+        </section>
     </main>
 
-    <footer>
-        <p>© 2024 Cake in a Can. This is a pretend product landing page made by Danielle Donnelly for freeCodeCamp's Responsive Web Design Certification.</p>
+    <footer id="contact">
+        <p>© 2024 Cake in a Can. This is a conceptual product landing page made by Danielle Donnelly for freeCodeCamp's Responsive Web Design Certification.</p>
     </footer>
 </body>
 </html>
