@@ -1,7 +1,9 @@
 /* General Styles */
 body {
   font-family: 'Arial', sans-serif;
-  margin: 0;
+  margin: auto;
+  padding-left: 200px;
+  padding-right: 200px;
   padding: 0;
   background-color: #f7f7f7;
   color: #333;
@@ -79,11 +81,13 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .product {
   flex: 0 0 calc(33.33% - 120px); 
-  margin: 30px; 
+  margin: 20px; 
   background-color: #f4efef; 
   padding: 10px; 
   border-radius: 10px; 
@@ -164,9 +168,18 @@ footer {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .product {
       flex-basis: calc(50% - 20px);
       margin: 1px;
+  }
+
+  .product-gallery {
+    margin-left: 20px;
+    margin-right: 20px; 
+  }
+
+  body {
+    margin: auto;
   }
 }
