@@ -170,16 +170,50 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 900px) {
   .product {
-      flex-basis: calc(50% - 20px);
-      margin: 1px;
+    flex-basis: calc(50% - 20px);
+    margin: 1px;
   }
 
   .product-gallery {
     margin-left: 40px;
-    margin-right: 40px; 
+    margin-right: 40px;
   }
 
   body {
-    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto; 
+  }
+
+  #form {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .product {
+    flex-basis: 100%;
+    margin: 5px;
+  }
+
+  #form input[type="email"],
+  #form input[type="submit"] {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  iframe {
+    width: 100%;
+    height: auto;
+  }
+
+  #form {
+    max-width: 100%;
+    padding: 10px 20px;
   }
 }
