@@ -121,6 +121,11 @@ footer {
   bottom: 0;
 }
 
+#contact {
+  display: flex;
+  justify-content: center; 
+}
+
 /* Form Styles */
 #form {
   background: #fff;
@@ -131,7 +136,7 @@ footer {
   max-width: 400px;
   width: 100%;
   padding: auto;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #form input[type="email"],
@@ -178,6 +183,7 @@ footer {
     margin-left: 40px;
     margin-right: 40px;
   }
+
 
   iframe {
     width: 100%;
