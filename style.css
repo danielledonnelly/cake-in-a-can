@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+/* Header Styles */
+header {
+  background-color: #EF7083;
+  color: white;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.5em;
+  margin: 10px 0 0;
+}
+
+/* Main Section Styles */
+main {
+  padding: 20px;
+}
+
+.product-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product {
+  background-color: white;
+  border: 2px solid #ff6f61;
+  border-radius: 10px;
+  padding: 10px;
+  width: 260px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product h2 {
+  font-size: 1.2em;
+  color: #ff6f61;
+  margin: 10px 0 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+}
