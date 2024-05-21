@@ -31,6 +31,18 @@ main {
   padding: 20px;
 }
 
+section {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.product-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+}
+
 .product-gallery {
   display: flex;
   flex-wrap: wrap;
