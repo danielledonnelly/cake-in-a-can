@@ -19,12 +19,14 @@ header {
   padding-bottom: 15px;
   background-color: #EF7083;
   color: white;
+  z-index: 1000;
 }
 
 header h1 {
   font-size: 28px;
   margin: 0;
 }
+
 
 header p {
   font-size: 20px;
@@ -77,12 +79,12 @@ section {
 }
 
 .product {
-  flex: 0 0 calc(33.33% - 180px); /* Adjusted width */
-  margin: 30px; /* Increased margin for better spacing */
-  background-color: #f4efef; /* Off-white background color */
-  padding: 10px; /* Padding to create the card effect */
-  border-radius: 10px; /* Rounded corners for the card */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  flex: 0 0 calc(33.33% - 120px); 
+  margin: 30px; 
+  background-color: #f4efef; 
+  padding: 10px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 
@@ -96,7 +98,7 @@ section {
 }
 
 .product h2 {
-  font-size: 1.2em;
+  font-size: 14px;
   color: #ff6f61;
   margin: 10px 0 0;
 }
