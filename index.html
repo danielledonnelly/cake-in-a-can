@@ -7,56 +7,67 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header id="header">
+<header id="header">
     <img id="header-img" src="images/header-img.png" alt="Cake in a Can Header Image">
     <h1>Cake in a Can</h1>
     <p>Don't bake! Take a break.</p>
-    <p>Crack open a can of cake.</p>
+    <p>Crack open a Can of Cake.</p>
     <nav id="nav-bar">
-      <a href="#about" class="nav-link">About</a>
-      <a href="#products" class="nav-link">Products</a>
-      <a href="#contact" class="nav-link">Contact</a>
-  </nav>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
 </header>
 
-    <main>
-        <section id="about">Cake is one of the sweetest things life has to offer, so why only eat it on special occasions? With Cake in a Can, you can keep cake conveniently close at all times.</section>
-        <br>
+<main>
+    <section id="about">
+      <h1 class="heading">About</h1>
+      Cake is one of the sweetest things life has to offer, so why only eat it on special occasions? With Cake in a Can, you can keep cake conveniently close at all times.</section>
+    <br>
+    <section id="trailer">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TaQfMjm0Xlc" frameborder="0" allowfullscreen id="video"></iframe>
+    </section>
 
-        <section class="product-gallery" id="products">
-            <div class="product">
-                <img src="images/cherry.png" alt="Cherry Cake in a Can">
-                <h2>Cherry Cake in a Can</h2>
-            </div>
-            <div class="product">
-                <img src="images/grape.png" alt="Grape Cake in a Can">
-                <h2>Grape Cake in a Can</h2>
-            </div>
-            <div class="product">
-                <img src="images/orange.png" alt="Orange Cake in a Can">
-                <h2>Orange Cake in a Can</h2>
-            </div>
-            <div class="product">
-                <img src="images/peach lemon.png" alt="Peach Lemon Cake in a Can">
-                <h2>Peach Cake in a Can</h2>
-            </div>
-            <div class="product">
-                <img src="images/strawberry.png" alt="Strawberry Cake in a Can">
-                <h2>Strawberry Cake in a Can</h2>
-            </div>
-            <div class="product">
-                <img src="images/watermelon.png" alt="Melon Cake in a Can">
-                <h2>Watermelon Cake in a Can</h2>
-            </div>
-        </section>
+    <h1 class="heading">Products</h1>
+    <section class="product-gallery" id="products">
+        <div class="product">
+            <img src="images/cherry.png" alt="Cherry Cake in a Can">
+            <h2>Cherry Cake in a Can</h2>
+        </div>
+        <div class="product">
+            <img src="images/grape.png" alt="Grape Cake in a Can">
+            <h2>Grape Cake in a Can</h2>
+        </div>
+        <div class="product">
+            <img src="images/orange.png" alt="Orange Cake in a Can">
+            <h2>Orange Cake in a Can</h2>
+        </div>
+        <div class="product">
+            <img src="images/peach lemon.png" alt="Peach Lemon Cake in a Can">
+            <h2>Peach Cake in a Can</h2>
+        </div>
+        <div class="product">
+            <img src="images/strawberry.png" alt="Strawberry Cake in a Can">
+            <h2>Strawberry Cake in a Can</h2>
+        </div>
+        <div class="product">
+            <img src="images/watermelon.png" alt="Melon Cake in a Can">
+            <h2>Watermelon Cake in a Can</h2>
+        </div>
+    </section>
 
-        <section id="trailer">
-            <iframe id="video" src="https://www.youtube.com/watch?v=TaQfMjm0Xlc">
-        </section>
-    </main>
+    <h1 class="heading">Contact</h1>
+    <section id="contact">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+</main>
 
-    <footer id="contact">
-        <p>© 2024 Cake in a Can. This is a conceptual product landing page made by Danielle Donnelly for freeCodeCamp's Responsive Web Design Certification.</p>
-    </footer>
+<footer>
+    <p>© 2024 Cake in a Can. This is a conceptual product landing page made by Danielle Donnelly for freeCodeCamp's Responsive Web Design Certification.</p>
+</footer>
+
 </body>
 </html>
