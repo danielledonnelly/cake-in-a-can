@@ -8,6 +8,11 @@ body {
   text-align: center;
 }
 
+.link {
+  color: #ADD8E6;
+  text-decoration: none;
+}
+
 /* Header and Heading Styles */
 header {
   padding-top: 55px;
@@ -17,7 +22,7 @@ header {
 }
 
 header h1 {
-  font-size: 24px;
+  font-size: 28px;
   margin: 0;
 }
 
@@ -26,7 +31,7 @@ header p {
 }
 
 .heading {
-  font-size: 20px;
+  font-size: 23px;
   color: #d62041;
 }
 
@@ -72,9 +77,12 @@ section {
 }
 
 .product {
-  flex: 0 0 calc(33.33% - 150px); 
-  margin-left: 80px;
-  margin-right: 80px;
+  flex: 0 0 calc(33.33% - 180px); /* Adjusted width */
+  margin: 30px; /* Increased margin for better spacing */
+  background-color: #f4efef; /* Off-white background color */
+  padding: 10px; /* Padding to create the card effect */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
 }
 
 
