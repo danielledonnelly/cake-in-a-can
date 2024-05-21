@@ -140,7 +140,8 @@ footer {
 }
 
 #form input[type="email"],
-#form input[type="submit"] {
+#form input[type="text"],
+#form input[type="submit"]{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -150,15 +151,23 @@ footer {
   font-size: 16px;
 }
 
-#form input[type="email"] {
+#form input[type="email"],
+#form input[type="text"] {
   border: 1px solid #ddd;
   transition: border-color 0.3s ease-in-out;
 }
 
-#form input[type="email"]:focus {
+#form input[type="email"]:focus,
+#form input[type="text"]:focus, {
   border-color:  #EF7083;
   outline: none;
 }
+
+#form input[type="text"] {
+  height: 100px; 
+  padding: 12px 20px;
+} 
+
 
 #form input[type="submit"] {
   background-color:  #EF7083;
@@ -203,10 +212,13 @@ footer {
   }
 
   #form input[type="email"],
+  #form input[type="text"],
   #form input[type="submit"] {
     font-size: 14px;
     padding: 10px;
   }
+
+  
 
   iframe {
     width: 100%;
