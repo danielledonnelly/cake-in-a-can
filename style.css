@@ -93,6 +93,7 @@ section {
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   padding: auto;
+  max-width: 80%;
 }
 
 
@@ -188,6 +189,10 @@ footer {
   text-align: left; 
   color: #e23d5b;
 }
+ iframe {
+  width: 600px;
+  height: 300px;
+ }
 
 /* Media query for smaller screens */
 @media (max-width: 900px) {
@@ -203,8 +208,8 @@ footer {
 
 
   iframe {
-    width: 100%;
-    height: auto; 
+    width: 50%;
+    height: 50%; 
   }
 
   #form {
@@ -228,9 +233,9 @@ footer {
 
   
 
-  iframe {
-    width: 100%;
-    height: auto;
+iframe {
+    width: 50%;
+    height: 50%; 
   }
 
   #form {
