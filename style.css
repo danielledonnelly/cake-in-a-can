@@ -197,7 +197,7 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 900px) {
   .product {
-    flex-basis: calc(50% - 20px);
+    flex-basis: calc(50% - 40px);
     margin: 1px;
   }
 
@@ -220,7 +220,7 @@ footer {
 
 @media (max-width: 600px) {
   .product {
-    flex-basis: 100%;
+    flex-basis: 42%;
     margin: 5px;
   }
 
