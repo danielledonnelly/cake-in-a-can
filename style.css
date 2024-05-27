@@ -197,7 +197,7 @@ footer {
 /* Media query for smaller screens */
 @media (max-width: 900px) {
   .product {
-    flex-basis: calc(50% - 40px);
+    flex-basis: 45%;
     margin: 1px;
   }
 
@@ -208,9 +208,9 @@ footer {
 
 
   iframe {
-    width: 50%;
-    height: 50%; 
-  }
+    width: 500px;
+    height: 300px;
+   }
 
   #form {
     max-width: 100%;
@@ -232,11 +232,10 @@ footer {
   }
 
   
-
-iframe {
-    width: 50%;
-    height: 50%; 
-  }
+  iframe {
+    width: 350px;
+    height: 200px;
+   }
 
   #form {
     max-width: 100%;
