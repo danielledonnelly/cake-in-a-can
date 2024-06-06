@@ -31,7 +31,6 @@ header h1 {
   margin: 0;
 }
 
-
 header p {
   font-size: 20px;
 }
@@ -79,6 +78,7 @@ main {
 section {
   padding-left: 20px;
   padding-right: 20px;
+  scroll-margin-top: 60px;
 }
 
 .product-gallery {
@@ -97,9 +97,9 @@ section {
   border-radius: 10px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   padding: auto;
-  max-width: 80%;
+  cursor: pointer;
+  min-width: 200px;
 }
-
 
 .product:hover {
   transform: scale(1.05);
@@ -111,7 +111,7 @@ section {
 }
 
 .product h2 {
-  font-size: 14px;
+  font-size: 18px;
   color: #ff6f61;
   margin: 10px 0 0;
 }
@@ -124,6 +124,10 @@ footer {
   position: relative;
   width: 100%;
   bottom: 0;
+}
+
+.footer {
+  font-size: 14px;
 }
 
 #contact {
@@ -193,23 +197,27 @@ footer {
   text-align: left; 
   color: #e23d5b;
 }
- iframe {
-  width: 600px;
-  height: 300px;
+
+input, textarea {
+  font-size: 14px !important;
+}
+
+iframe {
+  width: 675px;
+  height: 380px;
  }
 
 /* Media query for smaller screens */
 @media (max-width: 900px) {
   .product {
-    flex-basis: 45%;
     margin: 1px;
+    min-width: 250px !important;
   }
 
   .product-gallery {
     margin-left: 40px;
     margin-right: 40px;
   }
-
 
   iframe {
     width: 500px;
@@ -222,10 +230,12 @@ footer {
   }
 }
 
+/* Media query for mobile screens */
 @media (max-width: 600px) {
   .product {
     flex-basis: 42%;
     margin: 5px;
+    min-width: 250px !important;
   }
 
   #form input[type="email"],
