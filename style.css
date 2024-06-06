@@ -41,8 +41,12 @@ header p {
   color: #d62041;
 }
 
-/* Navbar Styles */
+p {
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
+/* Navbar Styles */
 #nav-bar {
   position: fixed;
   top: 0;
