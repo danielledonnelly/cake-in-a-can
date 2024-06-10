@@ -18,7 +18,7 @@ body {
 }
 
 .cherry {
-  color: #B21B2A !important
+  color: #B21B2A !important;
 }
 
 .berry {
@@ -26,17 +26,15 @@ body {
 }
 
 .peach {
-  color: #ED5715 !important
+  color: #ED5715 !important;
 }
 
-#D8A106
-
 .melon {
-  color: #3BB26E !important
+  color: #3BB26E !important;
 }
 
 .grape {
-  color: #8651BF !important
+  color: #8651BF !important;
 }
 
 /* Header and Heading Styles */
@@ -116,7 +114,7 @@ section {
 }
 
 .product {
-  flex: 0 0 calc(33.33% - 120px); 
+  flex: 0 0 calc(53.33% - 120px); 
   margin: 20px; 
   background-color: #f4efef; 
   padding: 10px; 
