@@ -5,7 +5,7 @@ body {
   padding-left: 200px;
   padding-right: 200px;
   padding: 0;
-  background-color: #f7eaec;
+  background-color: #fff3f6;
   color: #333;
   text-align: center;
   justify-content: center;
@@ -42,7 +42,7 @@ header {
   padding-top: 2px;
   padding-bottom: 15px;
   background-color: #EF7083;
-  color: white;
+  color: #fff;
   z-index: 1000;
 }
 
@@ -81,7 +81,7 @@ nav {
 
 
 .nav-link {
-  color: #f7f7f7;
+  color: #fff;
   text-decoration: none;
   font-size: 1.2em;
   margin: 0 20px;
@@ -113,7 +113,7 @@ section {
 .product {
   width: 250px !important;
   margin: 20px; 
-  background-color: #f4efef;
+  background-color: #fff;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -147,7 +147,7 @@ section {
 /* Footer Styles */
 footer {
   background-color:  #e23d5b;
-  color: white;
+  color: #fff;
   padding: 10px 0;
   position: relative;
   width: 100%;
@@ -170,9 +170,11 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-  max-width: 400px;
+  max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #form input[type="email"],
@@ -189,7 +191,7 @@ footer {
 
 #form input[type="email"],
 #form textarea {
-  border: 1px solid #ddd;
+  border: 1px solid #fff;
   transition: border-color 0.3s ease-in-out;
 }
 
@@ -248,8 +250,8 @@ iframe {
   }
 
   iframe {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 400px;
    }
 
   #form {
@@ -274,7 +276,7 @@ iframe {
 
   
   iframe {
-    width: 350px;
+    width: 400px;
     height: 200px;
    }
 
