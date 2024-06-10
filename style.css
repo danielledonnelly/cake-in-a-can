@@ -254,7 +254,7 @@ label {
 iframe {
   width: 675px;
   height: 380px;
- }
+}
 
 /* Media query for smaller screens */
 @media (max-width: 900px) {
@@ -286,7 +286,6 @@ iframe {
     font-size: 16px;
   }
 
-  /* Adjusted font sizes for smaller screens */
   #form input[type="email"],
   #form textarea,
   #form input[type="submit"] {
@@ -329,7 +328,7 @@ iframe {
   p {
     font-size: 16px;
   }
-  /* Adjusted font sizes for mobile screens */
+ 
   #form input[type="email"],
   #form textarea,
   #form input[type="submit"] {
@@ -350,6 +349,11 @@ iframe {
   }
 
   .container {
+    max-width: 300px;
+  }
+
+  .title-image {
+    min-width: 150px;
     max-width: 300px;
   }
 }
