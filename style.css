@@ -39,7 +39,7 @@ body {
 
 /* Header and Heading Styles */
 header {
-  padding-top: 55px;
+  padding-top: 2px;
   padding-bottom: 15px;
   background-color: #EF7083;
   color: white;
@@ -69,19 +69,16 @@ p {
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Navbar Styles */
 #nav-bar {
-  position: fixed;
-  top: 0;
-  left: 0; 
-  width: 100%;
   background-color: #e23d5b;
+  position: relative; /* Change position to relative */
   z-index: 1000;
 }
 
 nav {
   padding: 10px 0;
 }
+
 
 .nav-link {
   color: #f7f7f7;
@@ -102,7 +99,6 @@ main {
 section {
   padding-left: 20px;
   padding-right: 20px;
-  scroll-margin-top: 60px;
 }
 
 .product-gallery {
