@@ -39,6 +39,7 @@ body {
 
 /* Header and Heading Styles */
 header {
+  width: 100%;
   padding-top: 2px;
   padding-bottom: 15px;
   background-color: #EF7083;
