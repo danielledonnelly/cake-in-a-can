@@ -40,6 +40,10 @@ header p {
   color: #d62041;
 }
 
+#header-img {
+  max-width: 100px;
+}
+
 p {
   font-size: 18px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
