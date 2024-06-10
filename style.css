@@ -17,6 +17,28 @@ body {
   text-decoration: none;
 }
 
+.cherry {
+  color: #B21B2A !important
+}
+
+.berry {
+  color: #D8212D !important;
+}
+
+.peach {
+  color: #ED5715 !important
+}
+
+#D8A106
+
+.melon {
+  color: #3BB26E !important
+}
+
+.grape {
+  color: #8651BF !important
+}
+
 /* Header and Heading Styles */
 header {
   padding-top: 55px;
