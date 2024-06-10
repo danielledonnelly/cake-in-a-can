@@ -51,6 +51,10 @@ header h1 {
   margin: 0;
 }
 
+h1 {
+  font-size: 34px !important;
+}
+
 header p {
   font-size: 20px;
 }
@@ -64,8 +68,18 @@ header p {
   max-width: 200px;
 }
 
+.title-image {
+  min-width: 200px;
+  max-width: 500px;
+}
+
+.tagline {
+font-size: 25px;
+
+}
+
 p {
-  font-size: 18px;
+  font-size: 20px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -83,8 +97,9 @@ nav {
 .nav-link {
   color: #fff;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 22px;
   margin: 0 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav-link:hover {
@@ -186,7 +201,7 @@ footer {
   border-radius: 4px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 22px !important;
 }
 
 #form input[type="email"],
@@ -229,7 +244,11 @@ footer {
 }
 
 input, textarea {
-  font-size: 16px !important;
+  font-size: 20px !important;
+}
+
+label {
+  font-size: 22px;
 }
 
 iframe {
@@ -258,6 +277,25 @@ iframe {
     max-width: 100%;
     padding: 20px;
   }
+
+  h1 {
+    font-size: 22px !important;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  /* Adjusted font sizes for smaller screens */
+  #form input[type="email"],
+  #form textarea,
+  #form input[type="submit"] {
+    font-size: 18px !important;
+  }
+
+  label {
+    font-size: 20px;
+  }
 }
 
 /* Media query for mobile screens */
@@ -274,7 +312,6 @@ iframe {
     padding: 10px;
   }
 
-  
   iframe {
     width: 400px;
     height: 200px;
@@ -283,5 +320,16 @@ iframe {
   #form {
     max-width: 100%;
     padding: 10px 20px;
+  }
+
+  /* Adjusted font sizes for mobile screens */
+  #form input[type="email"],
+  #form textarea,
+  #form input[type="submit"] {
+    font-size: 16px !important;
+  }
+
+  label {
+    font-size: 18px;
   }
 }
