@@ -99,25 +99,29 @@ main {
 section {
   padding-left: 20px;
   padding-right: 20px;
+
 }
 
 .product-gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 20px; 
+  margin-right: 20px; 
 }
 
 .product {
-  flex: 0 0 calc(53.33% - 120px); 
+  width: 250px !important;
   margin: 20px; 
-  background-color: #f4efef; 
-  padding: 10px; 
-  border-radius: 10px; 
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
-  padding: auto;
+  background-color: #f4efef;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   cursor: pointer;
+}
+
+.product:hover {
+  transform: scale(1.05);
 }
 
 .product:hover {
@@ -133,6 +137,11 @@ section {
   font-size: 18px;
   color: #ff6f61;
   margin: 10px 0 0;
+}
+
+.container {
+  max-width: 1200px; /* Set the max-width of the container */
+  margin: 0 auto; /* Center the container */
 }
 
 /* Footer Styles */
