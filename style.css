@@ -102,7 +102,6 @@ section {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   padding: auto;
   cursor: pointer;
-  min-width: 200px;
 }
 
 .product:hover {
@@ -110,7 +109,7 @@ section {
 }
 
 .product img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
