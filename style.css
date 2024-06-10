@@ -2,8 +2,8 @@
 body {
   font-family: 'Arial', sans-serif;
   margin: 0 0 !important;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 20px;
+  padding-right: 20px;
   padding: 0;
   background-color: #fff3f6;
   color: #333;
@@ -86,8 +86,7 @@ p {
 
 #nav-bar {
   background-color: #e23d5b;
-  position: relative; /* Change position to relative */
-  z-index: 1000;
+  position: relative; 
 }
 
 nav {
@@ -156,7 +155,7 @@ section {
 }
 
 .container {
-  max-width: 1200px; /* Set the max-width of the container */
+  max-width: 1200px; 
   margin: 0 auto; /* Center the container */
 }
 
@@ -344,5 +343,13 @@ iframe {
   body {
     padding: none !important;
     margin: none !important;
+  }
+
+  main, section {
+    padding: 10px;
+  }
+
+  .container {
+    max-width: 300px;
   }
 }
