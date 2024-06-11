@@ -43,7 +43,7 @@ body {
 
 /* Header and Heading Styles */
 header {
-  width: 100%;
+  width: 100% !;
   padding-top: 2px;
   padding-bottom: 15px;
   background-color: #EF7083;
@@ -347,6 +347,10 @@ iframe {
 
   .container {
     max-width: 300px;
+  }
+
+  .header-img {
+    max-width: 200px;
   }
 
   .title-image {
