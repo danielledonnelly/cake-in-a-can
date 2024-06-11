@@ -79,7 +79,6 @@ header p {
 
 .tagline {
 font-size: 22px;
-
 }
 
 p {
@@ -353,5 +352,8 @@ iframe {
   .title-image {
     min-width: 150px;
     max-width: 300px;
+  }
+  .tagline {
+    font-size: 18px;
   }
 }
