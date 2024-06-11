@@ -12,6 +12,7 @@
     <meta property="og:type" content="website"> 
     <meta property="og:image" content="images/preview.png"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <script src="script.js" defer></script>
 </head>
 <body>
 <header id="header">
@@ -73,7 +74,7 @@
     <h1 class="heading">Contact Us</h1>
     <p>Curious about Cake in a Can? <br>Submit your questions below. </p>
     <section id="contact">
-        <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <form id="form" onsubmit="redirectToRickRoll()">
           <label>Email</label>
           <input id="email" name="email" placeholder="Enter your email." type="email" required></textarea>
           <label>Question</label>
