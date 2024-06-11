@@ -13,6 +13,7 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden; /* NOTE TO SELF This is what fixed iOS horizontal scrolling issue */
 }
 
 .link {
@@ -299,13 +300,7 @@ iframe {
   .product {
     flex-basis: 42%;
     margin: 5px;
-    min-width: 250px !important;
-  }
-
-  #form input[type="email"],
-  #form input[type="text"],
-  #form input[type="submit"] {
-    padding: 10px;
+    min-width: 200px !important;
   }
 
   iframe {
@@ -320,6 +315,7 @@ iframe {
 
   header, footer {
     width: 100% !important;
+    padding: none !important
   }
 
   h1 {
@@ -346,7 +342,7 @@ iframe {
   }
 
   main, section {
-    padding: none !important
+    padding: none !important;
   }
 
   .container {
@@ -355,7 +351,7 @@ iframe {
 
   .title-image {
     min-width: 150px;
-    max-width: 300px;
+    max-width: 250px;
   }
   .tagline {
     font-size: 18px;
