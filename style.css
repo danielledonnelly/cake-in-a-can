@@ -343,7 +343,7 @@ iframe {
   }
 
   main, section {
-    padding: 10px 20px;
+    padding: none !important
   }
 
   .container {
