@@ -315,7 +315,10 @@ iframe {
 
   header, footer {
     width: 100% !important;
-    padding: none !important
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 
   h1 {
@@ -337,20 +340,21 @@ iframe {
   }
 
   body {
-    padding: none !important;
-    margin: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100%;
   }
 
   main, section {
-    padding: none !important;
+    padding: 10px 0px !important;
   }
 
   .container {
-    max-width: 300px;
+    max-width: 300px !important;
   }
 
   .header-img {
-    max-width: 200px;
+    max-width: 200px !important;
   }
 
   .title-image {
